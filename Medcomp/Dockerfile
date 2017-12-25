@@ -16,7 +16,7 @@ RUN apt-get -qq update && apt-get -qq -y install curl bzip2 \
     && rm -rf /tmp/miniconda.sh \
     && conda install -y python=2.7.14 \
     && conda install -y numpy=1.13.3 scipy=1.0.0 scikit-learn=0.19.1 pandas=0.21.1 statsmodels=0.8.0 \
-    && conda install -y r-essentials r=3.4.1 r-bcp rpy2 \
+    && conda install -y r-essentials r=3.4.2 r-bcp rpy2 \
     && apt-get -qq -y remove curl bzip2 \
     && apt-get -qq -y autoremove \
     && apt-get autoclean \
