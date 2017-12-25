@@ -4,7 +4,8 @@ A `dockerfile` for unified research environment, focusing on machine learning in
 
 ## Design considerations
 
-- We use `conda` based Python 2.7.14 version. It is easy to change to python 3.6.3 by changing 2 lines in the `RUN` command.
+- We use `conda` based Python 2.7.14 version. 
+  - It is easy to change to python 3.6.3 by changing 2 lines in the `RUN` command.
 - We pin the followin packages:
 
 | Package      | Version|
