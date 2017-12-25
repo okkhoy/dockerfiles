@@ -1,2 +1,4 @@
 # dockerfiles
-Docker file for a unified research environment; focusing on machine learning in Python
+
+Docker files for specific needs.
+Each folder has its own documentation.
