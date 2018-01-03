@@ -1,7 +1,10 @@
 # Start from Ubuntu 14.04 base image; 14.04 is supported till 2019; we have enough time!
 # Well, because no Python2. 
 # Well, because Long live inertia!!
-FROM ubuntu:14.04
+FROM okkhoy/trusty-baseimage:baseimage-trusty
+
+#trusty-baseimage          latest              6bcb8036e6ea        15 hours ago        270MB
+#okkhoy/trusty-baseimage   baseimage-trusty
 
 # Let us standardize and install Anaconda 4.3.31; in 4.4.0+ the default virtual environment activation
 # has changed. For now, 4.3+ versions are supported, but any upgrade may prevent our existing code/environments
